@@ -364,6 +364,16 @@ nav {
 	padding-bottom: 45px;
 }
 
+@media (max-width: 767.98px){
+	
+	.footer__list {
+		flex-direction: column;
+		justify-content: center;
+		row-gap: 25px;
+	}
+
+}
+
 .footer__item {
 	transition: text-decoration .3s ease;
 }
